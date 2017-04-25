@@ -170,7 +170,7 @@ network={
         priority=-999
 }
 ```
-
+Note! open networks that still require authentification (like xfinitity, cox.. etc) can cause problems!
 If you have a hidden wifi network add the line `scan_ssid=1`.
 
 Press Esc and then type ':wq' and press Enter to write the file and quit
