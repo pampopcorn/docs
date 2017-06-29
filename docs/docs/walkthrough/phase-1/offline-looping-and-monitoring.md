@@ -24,7 +24,11 @@ Dexcom CGM users have a few different alternatives to retrieve blood glucose val
    
    ![Old explorer board version](../../Images/versions.jpg)
 
-  * The order of the cables and ports is important.  The OTG cable must be plugged into the OTG port on the Explorer board.  There are two kinds of OTG cables; (1) both ends are micro-USB like the one you can [order here](https://www.amazon.com/dp/B00TQOEST0/ref=cm_sw_r_cp_api_Niqfzb3B4RJJW) or (2) one end is USB and one end is micro-USB like the one you can [order here](https://www.adafruit.com/product/1099).  Both will work, but if you have the second kind, that cable must be the one plugged into the rig directly, and the other non-OTG cable must be plugged into the receiver (as shown in photo below).  That port is labeled on the underside of the port, it is the one closest to the lipo battery plug. A USB battery or wall charger must be plugged into the UART port to supply sufficient voltage to the ORG port (the lipo battery alone is not enough to power the OTG port). 
+  * The type of cable is important! You must have a DATA cable plugged between the dexcom reciever and the OTG port. (Remember! All micro usb cables charge, not all can transfer data).  the OTG port is how the rig recieves data.   The OTG port needs power (different power than the lipo that usually powers the rig) to recieve data.  You need to plug an external power source (portable battery pack or plug into the wall) into the UART port.  NOTE! If the rig is getting really hot, unplug the lipo battery.  The external power will power your rig, so you do NOT need a lipo also (but you can if you want).
+  
+  
+  
+  The OTG cable must be plugged into the OTG port on the Explorer board.  There are two kinds of OTG cables; (1) both ends are micro-USB like the one you can [order here](https://www.amazon.com/dp/B00TQOEST0/ref=cm_sw_r_cp_api_Niqfzb3B4RJJW) or (2) one end is USB and one end is micro-USB like the one you can [order here](https://www.adafruit.com/product/1099).  Both will work, but if you have the second kind, that cable must be the one plugged into the rig directly, and the other non-OTG cable must be plugged into the receiver (as shown in photo below).  That port is labeled on the underside of the port, it is the one closest to the lipo battery plug. A USB battery or wall charger must be plugged into the UART port to supply sufficient voltage to the ORG port (the lipo battery alone is not enough to power the OTG port). 
   
   ![OTG configurations](../../Images/otg.jpg)
 
